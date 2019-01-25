@@ -106,16 +106,16 @@ $ apt-get update
 
 - create a new user
 ```bash
-adduser $USERNAME
+$ adduser $USERNAME
 ```
 - Add user to sudo group
 ```bash
-usermod -aG sudo $USERNAME
+$ usermod -aG sudo $USERNAME
 ```
 
 - Switch user
 ```bash
-su $USER
+$ su $USER
 ```
 
 - Make sure user has sudo access
@@ -158,7 +158,7 @@ Change `PermitRootLogin no`
 
 - Restart SSH
 ```bash
-sudo service ssh restart
+$ sudo service ssh restart
 ```
 
 #### Buy a Domain
@@ -181,7 +181,7 @@ $ sudo apt-get install nginx
 
 - Start nginx
 ```bash
-sudo service nginx start
+$ sudo service nginx start
 ```
 > Note: If Nginx installed correctly you should see 'Welcome to Nginx'
 
